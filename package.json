@@ -1,0 +1,19 @@
+{
+  "name": "sendbird-platform-sdk-typescript-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc app.ts",
+    "start": "npm run build && node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sendbird-platform-sdk-typescript": "file:../sendbird-platform-openapi/sendbird-platform-sdk-typescript"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
