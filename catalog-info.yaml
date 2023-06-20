@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sendbird-platform-sdk-typescript-samples
+description: sendbird-platform-sdk-typescript-samples
+  annotations:
+    github.com/project-slug: sendbird/sendbird-platform-sdk-typescript-samples
+spec:
+  type: library
+  lifecycle: production
+  owner: dep-developer-experience
+  system: sendbird-uikit
